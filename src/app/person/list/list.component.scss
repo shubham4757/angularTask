@@ -1,0 +1,60 @@
+// .example-container{
+// display:flex;   
+// flex-direction:column;
+// min-width:300px; 
+// }
+    
+// .mat-table{
+// overflow:auto;
+// max-height:500px;
+// }
+
+// .cdk-overlay-connected-position-bounding-box{
+
+// transform-origin: 50% bottom;
+// font-size: 12px;
+// opacity: 1;
+// min-width: calc(100%);
+// transform: scaleY(1);
+
+
+// }
+// .ng-trigger ng-trigger-transformPanel ng-tns-c16-1 mat-mdc-select-panel mdc-menu-surface mdc-menu-surface--open mat-undefined ng-star-inserted{
+//     transform-origin: 50% bottom;
+// font-size: 12px;
+// opacity: 1;
+// min-width: calc(100%);
+// transform: scaleY(1);
+// }
+.scrollBar{
+    display: none;
+}
+.paginator{
+    display: contents;
+}
+
+
+@media (min-width:320px) and (max-width:599px){
+
+    .paginator{
+        display: none;
+    }
+    
+
+}
+
+@media (min-width:600px) and (max-width:959px){
+    .scrollBar{
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 960px) and (max-width: 2000px){
+    .scrollBar{
+        display: none;
+    }
+    
+
+}
